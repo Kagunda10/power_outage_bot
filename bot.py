@@ -7,6 +7,15 @@ TOKEN = "641140353:AAFg9_7e1T_m377LxkbwkQOsI4wPEMGv-zc"
 updater = Updater(token=TOKEN)
 
 logging.info("***************INITIALIZING BOT****************")
+
+#Help function
+def help(bot, update):
+    pass
+
+# Start Fucntion
+def start(bot, update):
+    pass
+
 # Menu function
 def menu(bot, update):
     #Main Menu Function
